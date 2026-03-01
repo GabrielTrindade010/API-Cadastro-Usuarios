@@ -25,7 +25,7 @@ const Users = db.define(
     });
 
 // syncing table
-Users.sync({ alter: true });
+Users.sync();
 
 // export
 module.exports = Users;
