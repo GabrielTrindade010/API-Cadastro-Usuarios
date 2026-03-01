@@ -10,6 +10,11 @@ app.use("/api", usersRoutes);
 
 const PORT = 3001;
 
+// Route to check if the API is working
+app.get("/", (req, res) => {
+    res.send("Server is running!")
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
