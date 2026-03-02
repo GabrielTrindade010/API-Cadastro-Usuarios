@@ -73,7 +73,7 @@ http://localhost:3001
 ## 📌 Base URL
 
 ```
-http://localhost:3001/api
+https://api-cadastro-usuarios-swii.onrender.com/
 ```
 
 ---
@@ -114,7 +114,7 @@ Cria um novo usuário.
 ### 📌 Exemplo
 
 ```
-GET http://localhost:3001/api/users/1
+GET https://api-cadastro-usuarios-swii.onrender.com/api/users/1
 ```
 
 ### ✅ Respostas
@@ -133,7 +133,7 @@ GET http://localhost:3001/api/users/1
 ### 📌 Exemplo
 
 ```
-PUT http://localhost:3001/api/users/1
+PUT https://api-cadastro-usuarios-swii.onrender.com/api/users/1
 ```
 
 ### 📥 Body (JSON)
@@ -162,7 +162,7 @@ PUT http://localhost:3001/api/users/1
 ### 📌 Exemplo
 
 ```
-DELETE http://localhost:3001/api/users/1
+DELETE https://api-cadastro-usuarios-swii.onrender.com/api/users/1
 ```
 
 ### ✅ Respostas
